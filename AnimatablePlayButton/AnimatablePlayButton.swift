@@ -75,7 +75,7 @@ public class AnimatablePlayButton: UIButton {
         color = .whiteColor()
     }
     
-    private func createLayers(frame: CGRect) {
+    public func createLayers(frame: CGRect) {
         
         let pauseLineWidth:CGFloat = bounds.width/5
         let pauseLine:CGFloat = pauseLineWidth * 2
