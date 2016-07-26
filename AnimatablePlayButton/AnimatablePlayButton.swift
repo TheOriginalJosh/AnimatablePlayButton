@@ -76,9 +76,7 @@ public class AnimatablePlayButton: UIButton {
     }
     
     public func createLayers(frame: CGRect) {
-        for view in layer.subviews {
-            view.removeFromSuperview()
-        }
+
         let pauseLineWidth:CGFloat = bounds.width/5
         let pauseLine:CGFloat = pauseLineWidth * 2
         let pausePadding:CGFloat = (bounds.height/5)
